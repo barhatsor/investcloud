@@ -1,58 +1,9 @@
 {
-  "movies": [
-    {
-      id: 0,
-      name: 'Star Wars',
-      genres: 'Space, Adventure, Action',
-      image: 'https://upload.wikimedia.org/wikipedia/en/0/0a/Star_Wars_%281997_re-release_poster%29.jpg',
-      date: '1977'      
-    },
-    {
-      id: 1,
-      name: 'The Big Short',
-      genres: 'Comedies',
-      image: 'https://upload.wikimedia.org/wikipedia/en/1/16/The_Big_Short_%282015_film_poster%29.png',
-      date: '2015'      
-    }
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
   ],
-  "users": [
-    {
-      id: 0,
-      username: 'barhatsor',
-      pass: 'limor1',
-      fname: 'Bar',
-      lname: 'Hatsor',
-      subscriptions: [
-        'Star Wars|0'
-      ],
-      permissions: [
-        'addsub'
-      ]
-    },
-    {
-      id: 1,
-      username: 'kostamals',
-      pass: 'kosta1',
-      fname: 'Kosta',
-      lname: 'Malsev',
-      subscriptions: [
-        'Star Wars|0', 'The Big Short|1'
-      ],
-      permissions: [
-        'cmovies',
-        'umovies',
-        'dmovies'
-      ]
-    },
-    {
-      id: 2,
-      username: 'jjaqques',
-      pass: 'limor100',
-      fname: 'James',
-      lname: 'Jaqques',
-      subscriptions: [],
-      permissions: []
-    }
-  ]
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
 }
-
