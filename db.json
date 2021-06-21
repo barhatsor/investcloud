@@ -15,8 +15,43 @@
       "date": "2015"
     }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "users": [
+    {
+      "id": 0,
+      "username": "barhatsor",
+      "pass": "limor1",
+      "fname": "Bar",
+      "lname": "Hatsor",
+      "subscriptions": [
+        "Star Wars|0"
+      ],
+      "permissions": [
+        "addsub"
+      ]
+    },
+    {
+      "id": 1,
+      "username": "kostamals",
+      "pass": "kosta1",
+      "fname": "Kosta",
+      "lname: "Malsev",
+      "subscriptions": [
+        "Star Wars|0", "The Big Short|1"
+      ],
+      "permissions": [
+        "cmovies",
+        "umovies",
+        "dmovies"
+      ]
+    },
+    {
+      "id": 2,
+      "username": "jjaqques",
+      "pass": "limor100",
+      "fname": "James",
+      "lname": "Jaqques",
+      "subscriptions": [],
+      "permissions": []
+    }
   ],
-  "profile": { "name": "typicode" }
 }
