@@ -1,6 +1,19 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      id: 0,
+      name: 'Star Wars',
+      genres: 'Space, Adventure, Action',
+      image: 'https://upload.wikimedia.org/wikipedia/en/0/0a/Star_Wars_%281997_re-release_poster%29.jpg',
+      date: '1977'      
+    },
+    {
+      id: 1,
+      name: 'The Big Short',
+      genres: 'Comedies',
+      image: 'https://upload.wikimedia.org/wikipedia/en/1/16/The_Big_Short_%282015_film_poster%29.png',
+      date: '2015'      
+    }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
