@@ -2,6 +2,7 @@
   "movies": [
     {
       "id": 0,
+      "uid": "fh1be2csseg",
       "name": "Star Wars",
       "genres": "Space, Adventure, Action",
       "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/Star_Wars_%281997_re-release_poster%29.jpg",
@@ -9,6 +10,7 @@
     },
     {
       "id": 1,
+      "uid": "m1hnke1ei6",
       "name": "The Big Short",
       "genres": "Comedies",
       "image": "https://upload.wikimedia.org/wikipedia/en/1/16/The_Big_Short_%282015_film_poster%29.png",
@@ -18,6 +20,7 @@
   "users": [
     {
       "id": 0,
+      "uid": "526iw15vj3x",
       "username": "barhatsor",
       "pass": "limor1",
       "fname": "Bar",
@@ -31,6 +34,7 @@
     },
     {
       "id": 1,
+      "uid": "ynvqjdvo1h",
       "username": "kostamals",
       "pass": "kosta1",
       "fname": "Kosta",
@@ -46,6 +50,7 @@
     },
     {
       "id": 2,
+      "uid": "cptzqn7p0mu",
       "username": "jjaqques",
       "pass": "limor100",
       "fname": "James",
